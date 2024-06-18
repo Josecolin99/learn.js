@@ -74,11 +74,11 @@ let height = 1.83
 let bmi = (weight / height) ** 2
 
 // Form 1
-if (bmi < 18.5){
+if (bmi < 18.5) {
     message = "Bajo de peso"
-} else if (bmi >= 18.5 && bmi < 25){
+} else if (bmi >= 18.5 && bmi < 25) {
     message = "Normal"
-} else if (bmi >= 25 && bmi > 30){
+} else if (bmi >= 25 && bmi > 30) {
     message = "Sobrepeso"
 } else {
     message = "Obeso"
